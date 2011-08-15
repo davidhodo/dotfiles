@@ -1,4 +1,4 @@
-source ~/devel/ros/setup.bash
+source ~/devel/ros-stacks/setup.bash
 
 alias rosenv='env | grep ROS'
 alias rosdiamondback='source /opt/ros/diamondback/setup.bash'
