@@ -1,13 +1,10 @@
-source ~/automow/setup.bash
+source ~/ros/setup.bash
 
 alias rosenv='env | grep ROS'
 alias roselectric='source /opt/ros/electric/setup.bash'
-alias roslocal='source ~/devel/ros/setup.bash'
 alias rviz='rosrun rviz rviz'
 alias xacro='rosrun xacro xacro.py'
-
 alias rosh='rosrun rosh rosh'
-
 
 rospython ()
 {
