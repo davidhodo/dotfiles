@@ -1,7 +1,10 @@
-source ~/devel/ros/setup.bash
+source ~/devel/automow/setup.bash
+
+export ROS_OS_OVERRIDE=osxbrew:lion
 
 alias rosenv='env | grep ROS'
 alias roselectric='source /opt/ros/electric/setup.bash'
+alias mowbot='export ROS_MASTER_URI=http://mowbot:11311/; export ROS_IP=192.168.0.10'
 alias rviz='rosrun rviz rviz'
 alias xacro='rosrun xacro xacro.py'
 alias rosh='rosrun rosh rosh'
