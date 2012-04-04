@@ -2,6 +2,7 @@
 	name = Michael Carroll
     email = carroll.michael@gmail.com
 [core]
+    excludesfile = ~/.gitignore_global
     pager = cat
     editor = vim
 [alias]
