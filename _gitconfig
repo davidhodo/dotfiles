@@ -30,3 +30,4 @@
     tool = vimdiff
 [github]
 	user = mjcarroll
+	token = 27236c47da71557617dc0ed06c96bde5

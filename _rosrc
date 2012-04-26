@@ -1,4 +1,4 @@
-source ~/devel/ros/setup.bash
+source ~/devel/automow/setup.bash
 
 alias rosenv='env | grep ROS'
 alias roselectric='source /opt/ros/electric/setup.bash'
