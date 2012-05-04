@@ -40,7 +40,7 @@ ps1_identity()
     COLOR2="${BROWN}"
   fi
 
-  printf "${GREY}[${COLOR1}\\\u${GREY}@${COLOR2}\\h${GREY}:${COLOR1}\w${GREY}]${COLOR2}  "
+  printf "${COLOR1}\\\u${GREY}@${COLOR2}\\h${GREY}:${COLOR1}\w${COLOR2}  "
 
   return 0
 }
@@ -107,7 +107,7 @@ ps1_rvm()
 ps1_set()
 {
   local prompt_char='$'
-  local separator="\n"
+  local separator=""
   local notime=0
 
   if [[ $UID -eq 0 ]] ; then

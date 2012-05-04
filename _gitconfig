@@ -1,6 +1,6 @@
 [user]
-	name = Michael Carroll
-    email = carroll.michael@gmail.com
+	name = David Hodo
+    email = david.hodo@gmail.com
 [core]
     excludesfile = ~/.gitignore_global
     pager = cat
@@ -21,7 +21,6 @@
     interactive = auto
     status = auto
 [diff]
-    tool = vimdiff
+    tool = meld
 [github]
-	user = mjcarroll
-	token = 27236c47da71557617dc0ed06c96bde5
+	user = davidhodo

@@ -10,8 +10,10 @@
 #----------------------
 # PATH
 #----------------------
-PATH="$PATH:/usr/local/sbin:/usr/sbin:/sbin"
-PATH="/usr/local/bin:$PATH"
+export PYTHONPATH=$PYTHONPATH:/usr/local/lib/python3/dist-packages
+export JTS_COMMON_PATH=$HOME/Development/JAUS/JAUSToolset/GUI/templates/Common
 
-test -d "$HOME/devel/bin" && PATH="$HOME/devel/bin:$PATH"
-test -d "$HOME/bin" && PATH="$HOME/bin:$PATH"
+export PATH=$PATH:~Development/MOOS/MOOSBin:
+
+#test -d "$HOME/devel/bin" && PATH="$HOME/devel/bin:$PATH"
+#test -d "$HOME/bin" && PATH="$HOME/bin:$PATH"
